@@ -1,0 +1,2 @@
+2022-07-15 17:34:00,731 - INFO - [Room(name='Dungeon', description='The stone walls are cold and damp.', connections=[1], entities=[Entity(name='test'), Entity(name='test')]), Room(name='Dungeon 2', description='The stone walls are cold and damp.  This room is dark.', connections=[0], entities=[Entity(name='test')])]
+2022-07-15 17:34:00,731 - INFO - [Entity(name='test'), Character(name='Monster', helth=10, agility=10, presence=10, strength=10, toughness=10)]

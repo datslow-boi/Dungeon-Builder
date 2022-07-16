@@ -1,0 +1,32 @@
+{
+    "rooms" : [
+        {
+            "name" : "Dungeon",
+            "description" : "The stone walls are cold and damp.",
+            "connections" : ["Dungeon 2"],
+            "entities" : ["test", "test", "Monster"]
+        },
+        {
+            "name" : "Dungeon 2",
+            "description" : "The stone walls are cold and damp.  This room is dark.",
+            "connections" : ["Dungeon"],
+            "entities" : ["test"]
+        } 
+    ],
+    "entities" : [
+        {
+            "name" : "test"
+        }
+    ],
+    "characters" : [
+        {
+            "name" : "Monster",
+            "room" : 0,
+            "helth" : 10,
+            "agility" : 10,
+            "presence" : 10,
+            "strength" : 10,
+            "toughness" : 10
+        }
+    ]
+}
